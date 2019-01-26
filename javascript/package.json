@@ -1,0 +1,31 @@
+{
+  "name": "euler",
+  "version": "1.0.0",
+  "description": "Project Euler problems",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js",
+    "test": "mocha **/*.spec.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/nathanpdaniel/euler.git"
+  },
+  "keywords": [
+    "euler"
+  ],
+  "author": "Nathan Daniel <nathanpdaniel01@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/nathanpdaniel/euler/issues"
+  },
+  "homepage": "https://github.com/nathanpdaniel/euler#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "mocha": "^5.2.0"
+  },
+  "dependencies": {
+    "moment": "^2.24.0",
+    "perf_hooks": "0.0.1"
+  }
+}
